@@ -9,7 +9,7 @@ zoom: 12
 map.on("load", ()=>{
     map.addSource('EarlyOn', {
         type: 'geojson',
-        data: "School locations-all types data - 4326.geojson"
+        data: "https://github.com/faizachwd/GGR472-Lab-2/blob/61ae09a5b75f0da0815e9cf1e51384d916400f25/EarlyON%20Child%20and%20Family%20Centres%20Locations%20-%20geometry%20-%204326.geojson"
     });
     map.addLayer({
     id: "EarlyOn_pts",
